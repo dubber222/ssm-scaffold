@@ -42,5 +42,15 @@
 
 #ssm-scaffold
 =======
+
 结合 dubber-dubbo-order 和 dubber-dubbo-user 学习dubbo, 以及 atomikos实现分布式事务
->>>>>>> 4050cc9b5011cb5c7750f63ea80da6954cecd97f
+
+注意点：
+------
+#####1、使用dubbo的时候，使用zookeeper注册中心注意 group(必须与服务提供者路径一致) 和 address配置
+
+[<dubbo:registry protocol="zookeeper"
+    address="${dubbo.zk.servers}"
+    group="${dubbo.zk.group}"
+    file="${dubbo.cache.dri}/dubbo-order.cache"/>]
+

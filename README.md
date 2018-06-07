@@ -1,4 +1,5 @@
 # ssm-scaffold
+<<<<<<< HEAD
 这是一个SpringMVC+Mybatis 脚手架，方便平时的开发使用，也可作为新手的学习项目。
 
 ##依赖
@@ -40,3 +41,6 @@
  - mvc-dispatcher-servlet.xml:SpringMVC配置文件
 
 #ssm-scaffold
+=======
+结合 dubber-dubbo-order 和 dubber-dubbo-user 学习dubbo, 以及 atomikos实现分布式事务
+>>>>>>> 4050cc9b5011cb5c7750f63ea80da6954cecd97f
